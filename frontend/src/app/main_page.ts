@@ -23,6 +23,7 @@ class MainPage {
             console.log("ERROR PAGE NOT FOUND")
         }
     }
+    
 }
 
 export default MainPage

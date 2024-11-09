@@ -5,10 +5,6 @@ class App {
     constructor() {
         this.router = new Router()
     }
-
-    run() {
-
-    }
 }
 
 const app = new App()

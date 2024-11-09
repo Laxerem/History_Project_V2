@@ -9,9 +9,8 @@ class Game_Page extends Page {
     constructor(url) {
         super(url)
         this.url = url;
-        this.html = document.createElement('div')
         this.game = new Game()
-        this.html.innerText = "ВКЛЮЧИ ФАНТАЗИЮ ТУТ ИГРА"
+        this.html = document.createElement('section')
     }
 }
 

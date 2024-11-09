@@ -4,13 +4,18 @@ abstract class Page {
 
     constructor(url: string) {
         this.url = url;
-        this.html = document.createElement("div")
+        this.html = document.createElement("section")
     }
 
     render() {
-        const body = document.body
-        body.innerHTML = ""
-        body.appendChild(this.html)
+        const section = document.querySelector("main")
+        if (section) {
+            section.innerHTML = ""
+            section.appendChild(this.html)
+        }
+        else {
+            console.log("Нет секции main для страницы")
+        }
     }
 }
 
