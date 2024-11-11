@@ -1,5 +1,9 @@
 body {
     margin: 0px;
+
+    background-image: url(../images/petr1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -33,13 +37,13 @@ button {
     color: red;
 }
 
-.butt1{
-    background-color: black;
-    color: brown;
+.button-game{
+    background-color:black;
+    color: white;
 
 }
 
-.butt2 {
+.button-about {
     color: white;
     background-color:black;
 }
