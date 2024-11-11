@@ -1,17 +1,14 @@
 abstract class Page {
-    protected url: string
     protected html: HTMLElement
 
-    constructor(url: string) {
-        this.url = url;
+    constructor() {
         this.html = document.createElement("section")
     }
 
     render() {
         const section = document.querySelector("main")
         if (section) {
-            section.innerHTML = ""
-            section.appendChild(this.html)
+            section.innerHTML = this.html.innerHTML
         }
         else {
             console.log("Нет секции main для страницы")

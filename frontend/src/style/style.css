@@ -3,9 +3,37 @@ body {
 }
 
 header {
-    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px 10px 20px;
+    justify-content: space-between;
+    min-height: 80px;
+    max-height: 120px;
     width: auto;
     background-color: black;
     color: white;
     font-family:'Courier New', Courier, monospace;
+}
+
+h1 {
+    margin: 0;
+}
+
+.site_name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    gap:20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+
+.catalog {
+    display: flex;
+    gap:30px;
+    font-size: 18px;
 }

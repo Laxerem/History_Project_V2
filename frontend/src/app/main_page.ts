@@ -1,7 +1,8 @@
 import Game_Page from "../pages/Game_page";
+import Error_Page from "../pages/Error_page";
 
 const page_key = {
-    "game": Game_Page
+    "game": Game_Page,
 }
 
 class MainPage {
@@ -21,6 +22,8 @@ class MainPage {
         }
         else {
             console.log("ERROR PAGE NOT FOUND")
+            this.page = new Error_Page("Такой страницы не существует :(", 404)
+            this.page.render()
         }
     }
     
