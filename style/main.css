@@ -27,7 +27,7 @@ button {
     border: none; 
 }
 
-.btt3 {
+.btt3:hover {
     display: flex;
     justify-content:center;
     align-items: center;
@@ -35,15 +35,43 @@ button {
     gap: 20px;
     height: 38px;
     color: red;
+    
 }
 
-.button-game{
-    background-color:black;
+.button-game:hover{
+    background-color:black
+    color: whi;
+    border: 2px solid white ;
+    
+    
+}
+
+.button-about:hover {
     color: white;
-
+    background-color:black
+    border: 2px solid white ;
+    
 }
 
-.button-about {
-    color: white;
+ .footjob {
     background-color:black;
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   text-align: center; 
+   width: 99%;   
+   font-size: 19px;
+font-weight: bold;
+  color: #fafaff;   
+  }
+
+.menu:hover { 
+    color: #8eff8c;
+    font-style: italic;
+    padding:2px;
+    background-color:#fdfffc;
 }
+ .t {
+    background-color: pink
+    ;
+ }
