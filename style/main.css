@@ -72,6 +72,32 @@ font-weight: bold;
     background-color:#fdfffc;
 }
  .t {
-    background-color: pink
-    ;
+    background-color: pink;
+ }
+
+ .mainmenu {
+display: flex;
+justify-content: center;
+margin-top:50px ;
+border: 5px solid black;
+border-radius: 5px;
+border-style: groove;
+margin: 195px;
+ }
+
+ .p {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    word-break:break-all;
+
+ }
+
+ .NewGame {
+    white-space: pre;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
  }
