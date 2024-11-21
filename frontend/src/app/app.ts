@@ -1,5 +1,4 @@
 import Router from "../routes/router";
-
 class App {
     private router: Router
     constructor() {

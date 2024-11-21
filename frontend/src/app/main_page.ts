@@ -26,7 +26,6 @@ class MainPage {
             this.page.render()
         }
     }
-    
 }
 
 export default MainPage

@@ -1,18 +1,36 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
     margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #f5deb3;
 }
 
 header {
     display: flex;
     align-items: center;
-    padding: 10px 40px 10px 20px;
-    justify-content: space-between;
-    min-height: 80px;
-    max-height: 120px;
+    height: 15%;
     width: auto;
     background-color: black;
     color: white;
-    font-family:'Courier New', Courier, monospace;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 25px;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    padding: 10px 40px 10px 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h1 {
@@ -34,6 +52,7 @@ h1 {
 
 .catalog {
     display: flex;
+    align-items: center;
     gap:30px;
-    font-size: 18px;
+    font-size: 20px;
 }
