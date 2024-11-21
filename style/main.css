@@ -27,7 +27,7 @@ button {
     border: none; 
 }
 
-.btt3:hover {
+.btt3 {
     display: flex;
     justify-content:center;
     align-items: center;
@@ -38,66 +38,65 @@ button {
     
 }
 
-.button-game:hover{
-    background-color:black
-    color: whi;
+.button-game:hover {
     border: 2px solid white ;
-    
-    
+    color: white;
+    background-color:black
 }
 
 .button-about:hover {
+    border: 2px solid white ;
     color: white;
     background-color:black
-    border: 2px solid white ;
     
 }
 
- .footjob {
+.footjob {
     background-color:black;
-   position: fixed;
-   right: 0;
-   bottom: 0;
-   text-align: center; 
-   width: 99%;   
-   font-size: 19px;
-font-weight: bold;
-  color: #fafaff;   
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center; 
+    width: 99%;   
+    font-size: 19px;
+    font-weight: bold;
+    color: #fafaff;   
+   }
+ 
+ .menu:hover { 
+     color: #8eff8c;
+     font-style: italic;
+     padding:2px;
+     background-color:#fdfffc;
+ }
+  .text {
+     background-color: black;
   }
+  .button-game {
+     background-color: white;
+  }
+  
+ .Slova {
+    display:flex;
+    border: 3px  solid black;
+    background-color: black;
+    margin: 15% 30% ;
 
-.menu:hover { 
-    color: #8eff8c;
-    font-style: italic;
-    padding:2px;
-    background-color:#fdfffc;
-}
- .t {
-    background-color: pink;
- }
-
- .mainmenu {
-display: flex;
-justify-content: center;
-margin-top:50px ;
-border: 5px solid black;
-border-radius: 5px;
-border-style: groove;
-margin: 195px;
- }
-
- .p {
-    display: flex;
-    justify-content:center;
-    align-items: center;
-
-    word-break:break-all;
+    
 
  }
+ 
+ .osnova {
+    border: 2px  solid purple;
+    padding: 1%;
+    color: purple;
+    width: 50%; 
+    margin: 0 auto;
 
- .NewGame {
-    white-space: pre;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-
+ }
+  
+ .vnutri {
+    color: white;
+    word-wrap:wrap;
+    position: left;
  }
