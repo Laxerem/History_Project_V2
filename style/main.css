@@ -34,35 +34,31 @@ button {
     width: 200px;
     gap: 20px;
     height: 38px;
-    color: red;
-    
+}
+
+.button-game {
+    height: 40px;
+    background-color: white;
+}
+
+.button-about {
+    height: 40px;
 }
 
 .button-game:hover {
     border: 2px solid white ;
     color: white;
-    background-color:black
+    background-color:black;
 }
 
 .button-about:hover {
     border: 2px solid white ;
     color: white;
-    background-color:black
+    background-color:black;
     
 }
 
- .menu:hover { 
-     color: #8eff8c;
-     font-style: italic;
-     padding:2px;
-     background-color:#fdfffc;
- }
-  .text {
-     background-color: black;
-  }
-  .button-game {
-     background-color: white;
-  }
+ 
   
   main {
     display: flex;
@@ -132,6 +128,10 @@ button {
     color: wheat;
 }
 
+.text1 {
+    padding-left: 10px;
+}
+
 
 .ava {
     max-width: 280px;
@@ -155,3 +155,13 @@ button {
     color: #fafaff;   
    }
  
+   .text {
+    background-color: black;
+ }
+
+ .menu:hover { 
+    color: white;
+    font-style: italic;
+    padding:2px;
+    background-color:black;
+}
