@@ -4,28 +4,35 @@ import '../style/style.css'
 import '../style/game.css'
 class Game_Page extends Page {
     protected html
-    private game: Dialog
+    private dialog: Dialog
 
     constructor() {
         super()
         this.html = document.querySelector<HTMLDivElement>('main')
         this.html.innerHTML = `
         <div class="main_container">
-        <div class="game_name">
-        <h1>Игра</h1>
-        </div>
-        <div class="game_container">
-        <div class="game_text">
-        <h4 id="plot"></h4>
-        </div>
-        <div id="game_varios">
+            <div class="game_name">
+                <h1>Игра</h1>
+            </div>
+            <div class="game_container">
+                <div class="game_text">
+                    <h4 id="plot"></h4>
+                </div>
+                <div id="game_varios">
 
-        </div>
-        </div>
+                </div>
+            </div>
         </div>
         `
-        this.game = new Dialog()
-        this.game.start()
+    }
+    render(): void {
+        if (this.dialog) {
+
+        }
+        else{
+            this.dialog = new Dialog()
+            this.dialog.start()
+        }
     }
 }
 

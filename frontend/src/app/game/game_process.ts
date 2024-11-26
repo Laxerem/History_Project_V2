@@ -1,6 +1,5 @@
 import dialogs from "./dialog"
 import get_button from "../../modules/modules"
-
 class Dialog {
     private id: string
     private description: string
@@ -10,7 +9,7 @@ class Dialog {
         this.id = id;
         this.variants = dialogs[id].variants
         this.description = dialogs[id].description
-        console.log(this.variants)
+
     }
 
     change_dialog(id: string) {
@@ -33,12 +32,6 @@ class Dialog {
                 })
                 varios_container.appendChild(choice_button)
             }
-            const buttons = document.querySelectorAll(".varios")
-            buttons.forEach((button) => {
-                button.addEventListener('click', () => {
-                    console.log("fff")
-                })
-            })
         }
     }
 }
