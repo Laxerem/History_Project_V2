@@ -17,7 +17,7 @@ class MainPage {
     change_page(name_page) {
         const instance_page = page_key[name_page];
         if (instance_page) {
-            this.page = new instance_page();
+            this.page = new instance_page()
             this.page.render()
         }
         else {

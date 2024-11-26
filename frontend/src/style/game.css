@@ -37,17 +37,17 @@ main {
     background-color: rgba(139, 0, 255, 0.2);
 }
 
-.plot {
+#plot {
     text-align: center;
     font-size: 20px;
     color: rgb(29, 197, 54);
 }
 
-.game_varios {
+#game_varios {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 49% 49%;
     grid-template-rows: 30% 30%;
-    grid-column-gap: 10px;
+    grid-column-gap: 2%;
     height: 50%;
 }
 

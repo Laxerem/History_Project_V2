@@ -1,16 +1,13 @@
+import Dialog from "./game_process"
+
 class Game {
-    private name: string
-
-    constructor(name: string) {
-        this.name = name;
+    private dialog: Dialog
+    constructor() {
+        this.dialog = new Dialog()
     }
 
-    new_game() {
-
-    }
-
-    continue() {
-        
+    start() {
+        this.dialog.start()
     }
 }
 
