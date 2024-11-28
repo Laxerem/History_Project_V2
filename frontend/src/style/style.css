@@ -60,6 +60,11 @@ h1 {
     color: rgb(255, 0, 200);
 }
 
+.site_name a:active {
+    color: red;
+    transform: scale(1.05) rotate(-0.2deg);
+}
+
 .logo {
     height: 100px;
     width: 100px;
