@@ -8,11 +8,22 @@ html, body {
 }
 
 body {
-    background-image: url(../images/image.png);
+    background-image: url(../images/sity_2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     height: 100vh;
+}
+
+.logo{
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
+
+.zagolovok {
+    margin-right: 65%;
+
 }
 
 h1 {
