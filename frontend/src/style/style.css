@@ -18,7 +18,6 @@ header {
     align-items: center;
     height: 15%;
     width: auto;
-    background-color: black;
     color: white;
     font-family: "JetBrains Mono", monospace;
     font-size: 25px;
@@ -27,9 +26,10 @@ header {
 .header-container {
     display: flex;
     width: 100%;
-    padding: 10px 20px 10px 20px;
+    padding: 20px 20px 10px 20px;
     align-items: center;
     justify-content: space-between;
+    background-color: black;
 }
 
 h1 {
@@ -76,72 +76,10 @@ h1 {
     transition: 0.2s;
 }
 
-@media(min-width: 0px) {
-    header {
-        height: auto;
-    }
-    .header-container {
-        flex-direction: column;
-        height: auto;
-    }
-    .site_name {
-        padding: 10px;
-        font-size: 38px;
-        border-bottom: 2px solid white;
-    }
-    .catalog {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        font-size: 30px;
-        text-wrap: nowrap;
-        padding-top: 20px;
-        gap: 0px;
-    }
-    .game_container {
-        display: none;
-    }
-    .catalog div {
-        padding: 12px;
-    }
+.catalog div a {
+    transition: 1s;
 }
 
-@media(max-width:470px) {
-    .site_name {
-        justify-content: center;
-    }
-    .site_name a {
-        width: 160px;
-    }
-}
-
-@media(min-width: 750px) {
-    header {
-        height: 15%;
-    }
-    .header-container {
-        flex-direction: row;
-    }
-    .site_name {
-        padding: 0;
-        font-size: 30px;
-        border-bottom: none;
-    }
-    .catalog {
-        flex-direction: row;
-        align-items: center;
-        width: auto;
-        font-size: 27px;
-        text-wrap: nowrap;
-        padding-top: 0;
-        gap: 50px;
-    }
-
-    .game_container {
-        display: block;
-    }
-
-    .catalog div {
-        padding: 15px;
-    }
+.catalog div a:hover {
+    border-bottom: 1px solid white;
 }
