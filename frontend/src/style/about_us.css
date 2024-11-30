@@ -1,0 +1,88 @@
+.about_us {
+    height: 100%;
+    width: 100%;
+}
+
+.programmers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: rgb(20,33,33);
+    background: linear-gradient(185deg, rgba(20,33,33,1) 0%, rgb(130, 26, 199) 100%);
+}
+
+
+.Laxerem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.laxerem-photo {
+    position: relative;
+    background-image: url(../../public/laxerem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+.about_him {
+    height: 400px;
+    min-width: 350px;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.username-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 49px;
+    border-bottom: 2px solid white;
+}
+
+.username {
+    font-size: 35px;
+    color: rgb(81, 255, 1);
+    font-family: "Parkinsans", sans-serif;
+}
+
+.text-about {
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    padding: 10px 10px 10px 20px;
+    height: 330px;
+}
+
+.case {
+    padding-top: 20px;
+}
+
+.container {
+    padding: 5px 0px 10px 25px;
+}
+
+.list {
+    font-size: 15px;
+}
+
+.achievements li {
+    padding-top: 10px;
+}
+
+.case-container {
+    padding-top: 10px;
+}
+
+@media(max-width: 705px) {
+    .about_him {
+        margin-top: 20px;
+        width: 90%;
+    }
+}
