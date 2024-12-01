@@ -75,9 +75,26 @@
 }
 
 .username {
+    transition: 0.5s;
     font-size: 35px;
     color: rgb(81, 255, 1);
     font-family: "Parkinsans", sans-serif;
+}
+
+.username:hover {
+    transform: scale(1.02);
+}
+
+.programmer:first-child {
+    .username:hover {
+        color: rgb(255, 0, 0);
+    }
+}
+
+.programmer:nth-child(2) {
+    .username:hover {
+        color: rgb(217, 0, 255);
+    }
 }
 
 .text-about {
@@ -89,7 +106,7 @@
 }
 
 .case {
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .container {
