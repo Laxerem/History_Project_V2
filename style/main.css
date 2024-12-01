@@ -22,8 +22,13 @@ body {
 }
 
 .zagolovok {
-    margin-right: 65%;
+    font-family: "JetBrains Mono", serif;
+}
 
+.zagolovok h1:hover {
+    color: rgb(153, 50, 204);
+    transition: 0.2s;
+    transform: scale(1.04) rotate(0.2deg);
 }
 
 h1 {
@@ -34,14 +39,21 @@ h1 {
 header {
     height: 15%;
     background-color: black; 
+    padding: 0px 20px 0px 20px;
 }
 
 .header-container {
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    padding: 0 2% 0 2%;
     height: 100%;
+}
+
+.zagolovok-container {
+    display:flex;
+    align-items: center;
+    gap:20px;
+    justify-content: center;
 }
 
 main {

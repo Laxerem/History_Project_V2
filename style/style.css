@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 button {
     margin: 0px;
     height: 20px;
@@ -5,7 +7,7 @@ button {
     border: none; 
 }
 
-.btt3 {
+.button_head {
     display: flex;
     justify-content:center;
     align-items: center;
@@ -15,30 +17,40 @@ button {
 }
 
 .button-game {
-    height: 40px;
-    background-color: white;
-    margin-right: 3px;
-}
-
-.button-about {
-    height: 40px;
+    border: 2px solid black ;
+    border-radius:25%;
+    color: Aquamarine;
+    height:45px;
+    background-color: black;
+    margin-right: 5px;
 }
 
 .button-game:hover {
-    border: 2px solid white ;
-    color: white;
+    border: 2px solid Maroon ;
+    padding: 3px;
+    color: Brown;
     background-color:black;
-    transform: rotate(15deg);
-    transition: 0.5s;
+    transform: rotate(360deg);
+    transition: 1.0s;
     
 }
 
-.button-about:hover {
-    border: 2px solid white ;
-    color: white;
+.button-about {
+    border: 2px solid black ;
+    border-radius:25%;
+    color: Aquamarine;
+    height:40px;
     background-color:black;
-   transform: rotate(-15deg);
-   transition: 0.5s;
+    margin-right: 5px;
+}
+
+.button-about:hover {
+    border: 2px solid Maroon ;
+    padding: 3px;
+    color: Brown;
+    background-color:black;
+    transform: rotate(-360deg);
+    transition: 1.0s;
     
 }
 
@@ -51,17 +63,18 @@ button {
     min-width: 50%;
 }
 
-.game_name {
+.topic_name {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px outset purple;
-    border-radius: 30px;
+    border: 3px outset Tomato;
+    border-radius: 25px;
     background: black;
-    color: white;
+    color: LightSalmon;
     height: 15%;
-    width: 55%;
-    margin-left: 25%;  
+    font-family: "JetBrains Mono", serif;
+    font-size: 15px;
+    
 }
 
 .game_container {
@@ -76,19 +89,19 @@ button {
 
 .ava {
     background-image: url(../images/PETR1.webp);
+    background-position: center;
+    background-size: cover;
     width: 300px;
     margin-right: 5px;
 }
 
 .main_text {
-    font-style: italic;
+    font-family: "Montserrat", serif;
     padding: 10px;
     margin-right: 10px;
     max-width: 500px;
     max-height: 300px;
 }
-
-
 
 .footjob {
     display: flex;
@@ -106,26 +119,27 @@ button {
     color: #fafaff;   
    }
  
-   .text {
-    background-color: black;
-    
+
+ .menu {
+    color:white;
  }
 
  .menu:hover { 
-    color: white;
-    font-style: italic;
+    border: 3px solid red;
+    color:Red;
     padding:2px;
     background-color:black;
+    rotate:(360deg);
+    transition: 0.5s;
 }
 
 .bottom_main {
    width: 150px;
- 
 }
 
 .button_next {
     border: 2px solid black ;
-    color: white;
+    color:white;
     height: 40px;
     background-color: black;
     width: 150px;
@@ -134,10 +148,11 @@ button {
 }
 
 .button_next:hover {
-    border: 2px outset rgba(63,24,85,5) ;
+    color: rgba(186, 85, 211, 0.8);
+    border: 2px outset BlueViolet ;
     background: rgb(28,25,25);
     background: linear-gradient(90deg, rgba(28,25,25,1) 3%, rgba(63,24,85,1) 53%, rgba(50,20,120,1) 96%);
-    rotate (360deg);
+    rotate:(360deg);
     transition: 0.7s;
 }
 
