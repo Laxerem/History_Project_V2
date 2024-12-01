@@ -14,17 +14,45 @@
 }
 
 
-.Laxerem {
+.programmer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
     width: 100%;
+    padding-bottom: 25px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.zagolovok {
+    font-size: 25px;
 }
 
 .laxerem-photo {
     position: relative;
     background-image: url(../../public/laxerem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+.devilsatu-photo {
+    position: relative;
+    background-image: url(../../public/DevilSatu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+.oiwiio-photo {
+    position: relative;
+    background-image: url(../../public/oiwiio.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -84,5 +112,8 @@
     .about_him {
         margin-top: 20px;
         width: 90%;
+    }
+    .photo-container {
+        width: 100%;
     }
 }
