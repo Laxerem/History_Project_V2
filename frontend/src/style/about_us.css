@@ -10,9 +10,10 @@
     flex-wrap: wrap;
     padding: 20px;
     background: rgb(20,33,33);
-    background: linear-gradient(185deg, rgba(20,33,33,1) 0%, rgb(130, 26, 199) 100%);
+    background-image: url(../../public/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 
 .programmer {
     display: flex;
