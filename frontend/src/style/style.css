@@ -32,7 +32,7 @@ header {
     justify-content: space-between;
     background: rgb(2,0,36);
     background: linear-gradient(58deg, rgba(2,0,36,1) 0%, rgba(34,34,186,1) 59%, rgba(17,18,52,1) 100%);
-    box-shadow: 0px 64px 134px 30px rgb(29, 24, 141);
+    box-shadow: 0px 30px 134px 30px rgb(29, 24, 141);
 }
 h1 {
     margin: 0;
@@ -93,4 +93,48 @@ h1 {
 
 footer {
     background-color: black;
+    color: white;
+    box-shadow: 1px -8px 25px 0px rgba(255,255,255,0.5);
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    height: 80px;
+}
+
+.footer-zagolovok {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+}
+
+.navigation_el a {
+    color: wheat;
+    font-family: "JetBrains Mono", monospace;
+    transition: 0.5s;
+}
+
+.navigation_el a:hover {
+    color: white;
+    transform: scale(2deg) rotate(30deg);
+    border-bottom: 1px solid white;
+    transition: 0.5s;
 }

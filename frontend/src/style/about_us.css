@@ -98,6 +98,12 @@
     }
 }
 
+.programmer:last-child {
+    .username:hover {
+        color: yellow;
+    }
+}
+
 .text-about {
     color: white;
     font-family: "Roboto", serif;
