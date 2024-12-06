@@ -1,7 +1,7 @@
 .main_container {
     background-color: rgba(0, 0, 0, 0.8);
-    max-width: 70%;
-    min-width: 60%;
+    height: 70%;
+    width: 70%;
 }
 
 .game_name {

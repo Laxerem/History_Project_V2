@@ -1,7 +1,5 @@
 import Page from "../modules/page";
 import Dialog from "../app/game/game_process";
-import '../style/style.css'
-import '../style/game.css'
 class Game_Page extends Page {
     protected html
     private dialog: Dialog
