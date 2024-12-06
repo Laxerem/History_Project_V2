@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -17,27 +16,30 @@ a {
 header {
     display: flex;
     align-items: center;
-    height: 15%;
     width: auto;
-    background-color: black;
     color: white;
     font-family: "JetBrains Mono", monospace;
     font-size: 25px;
+    z-index: 0;
 }
 
 .header-container {
     display: flex;
     width: 100%;
-    padding: 10px 40px 10px 20px;
     align-items: center;
     justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(58deg, rgba(2,0,36,1) 0%, rgba(34,34,186,1) 59%, rgba(17,18,52,1) 100%);
+    box-shadow: 0px 30px 134px 30px rgb(29, 24, 141);
 }
-
 h1 {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 .site_name {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,14 +47,101 @@ h1 {
     gap:20px;
 }
 
-.logo {
-    width: 100px;
+.site_name {
+    transition: 0.5s;
 }
 
+.site_name a {
+    transition: 0.2s;
+}
+
+.site_name a:hover {
+    transform: scale(1.04) rotate(0.2deg);
+    color: rgb(255, 0, 200);
+}
+
+.site_name a:active {
+    color: red;
+    transform: scale(1.05) rotate(-0.2deg);
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    background-image: url(../../public/logo.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 .catalog {
     display: flex;
     align-items: center;
     gap:30px;
     font-size: 20px;
+    transition: 0.2s;
+}
+
+.catalog div a {
+    transition: 1s;
+}
+
+.catalog div a:hover {
+    border-bottom: 1px solid white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../public/Petr-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    box-shadow: 1px -8px 25px 0px rgba(255,255,255,0.5);
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    height: 80px;
+}
+
+.footer-zagolovok {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+}
+
+.navigation_el a {
+    color: wheat;
+    font-family: "JetBrains Mono", monospace;
+    transition: 0.5s;
+}
+
+.navigation_el a:hover {
+    color: white;
+    transform: scale(2deg) rotate(30deg);
+    border-bottom: 1px solid white;
+    transition: 0.5s;
 }
