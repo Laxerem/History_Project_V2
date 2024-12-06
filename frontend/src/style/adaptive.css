@@ -37,6 +37,15 @@
     .game_name h1{
         font-size: 30px;
     }
+    .main_container {
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .main_container {
+        width: 100%;
+    }
 }
 
 @media(max-width:470px) {
@@ -71,6 +80,16 @@
     .catalog div {
         padding: 0;
     }
+    .main_container {
+        width: 70%;
+        min-width: 400px;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 750px) {
+    .main_container {
+        width: 90%;
+    }
 }
 
 @media(min-width: 750px) {
@@ -91,7 +110,7 @@
         height: 15%;
     }
     main {
-        height: 85%;
+        height: auto;
     }
     .header-container {
         flex-direction: row;
@@ -124,7 +143,8 @@
         font-size: 30px;
     }
     .main_container {
-        height: 90%;
+        width: 800px;
+        min-width: 400px;
     }
 }
 
@@ -141,11 +161,7 @@
     .site_name {
         border: none;
     }
-
-    .catalog {
-        width: 120px;
-    }
-
+    
     .catalog div {
         padding: 0;
     }
