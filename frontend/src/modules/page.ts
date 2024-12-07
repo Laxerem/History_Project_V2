@@ -6,9 +6,9 @@ abstract class Page {
     }
 
     render() {
-        const section = document.querySelector("main")
-        if (section) {
-            section.innerHTML = this.html.innerHTML
+        const main = document.querySelector("main")
+        if (main) {
+            main.innerHTML = this.html.innerHTML
         }
         else {
             console.log("Нет секции main для страницы")

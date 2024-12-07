@@ -115,6 +115,7 @@ footer {
 .footer-zagolovok {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    text-align: center;
 }
 
 .footer-text {
@@ -144,4 +145,30 @@ footer {
     transform: scale(2deg) rotate(30deg);
     border-bottom: 1px solid white;
     transition: 0.5s;
+}
+
+.error_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 529px;
+    width: 100%;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 500px;
+    background-color: black;
+}
+
+.error_text {
+    color: aliceblue;
+}
+
+.error_code {
+    color: red;
 }
