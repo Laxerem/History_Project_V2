@@ -54,23 +54,12 @@
     color: white;
 }
 
-.nobility {
-    .theme_image {
-        background-image: url(../../public/дворянство.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 80%;
-    }
-}
-
 .theme:hover {
     border: 2px solid red;
     .comment {
         opacity: 1;
     }
 }
-
 
 
 .reforms {
