@@ -61,12 +61,13 @@ main {
 .authorities {
     font-family: 'Montserrat', sans-serif;
     h3 {
+        padding-top: 20px;
         font-size: 24px;
     }
 }
 
 .authorities {
-    max-width: 750px;
+    max-width: 850px;
     p {
         padding-left: 20px;
     }
