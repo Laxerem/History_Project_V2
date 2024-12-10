@@ -62,7 +62,7 @@
     .header-container {
         flex-direction: row;
         height: 100%;
-        padding: 10px 10px 0px 10px;
+        padding: 0;
     }
     .catalog {
         flex-direction: row;
@@ -79,23 +79,13 @@
     header {
         height: 115px;
     }
-    footer {
-        height: 100px;
-    }
-    
     .header-container {
         flex-direction: row;
         height: 100%;
         padding: 0px 10px 0px 10px;
-        height: 15%;
     }
     main {
         height: auto;
-    }
-    .header-container {
-        flex-direction: row;
-        height: 100%;
-        padding: 10px 10px 0px 10px;
     }
     .site_name {
         padding: 0;
@@ -126,5 +116,8 @@
         width: 70%;
         max-width: 800px;
         min-width: 600px;
+    }
+    footer {
+        height: 100px;
     }
 }
