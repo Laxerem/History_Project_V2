@@ -8,16 +8,18 @@ class Game_Page extends Page {
         super()
         this.html = document.querySelector<HTMLDivElement>('main')
         this.html.innerHTML = `
-        <div class="main_container">
-            <div class="game_name">
-                <h1>Игра</h1>
-            </div>
-            <div class="game_container">
-                <div class="game_text">
-                    <h4 id="plot"></h4>
+        <div class="main_section_container">
+            <div class="main_container">
+                <div class="game_name">
+                    <h1>Игра</h1>
                 </div>
-                <div id="game_varios">
+                <div class="game_container">
+                    <div class="game_text">
+                        <h4 id="plot"></h4>
+                    </div>
+                    <div id="game_varios">
 
+                    </div>
                 </div>
             </div>
         </div>

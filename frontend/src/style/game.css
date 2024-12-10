@@ -48,3 +48,14 @@
     background: linear-gradient(rgb(55, 112, 105), rgb(40, 21, 21));
     color: wheat;
 }
+
+.main_section_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(../../public/Petr-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
