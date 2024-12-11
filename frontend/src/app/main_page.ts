@@ -3,12 +3,14 @@ import Error_Page from "../pages/Error_page";
 import About_us_page from "../pages/About_us";
 import Themes_page from "../pages/themes";
 import Home_Page from "../pages/Home_page";
+import State_results from "../pages/state_results";
 
 const page_key = {
     "game": Game_Page,
     "about_us": About_us_page,
     "themes": Themes_page,
-    "home": Home_Page
+    "home": Home_Page,
+    "results": State_results
 }
 
 class MainPage {
