@@ -114,7 +114,7 @@ class About_us_page extends Page{
                                         </div>
                                 </div>
                                 <div class="feature">
-                                    <p>Дома нет, но дома сделает</p>
+                                    <p>Разработчик сюжета игры</p>
                                 </div>
                             </div>
                         </div>
