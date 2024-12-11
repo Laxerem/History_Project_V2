@@ -1,6 +1,8 @@
 # History Project
 
-## Новые органы власти
+## Итоги
 
 #### В данной ветке работает:  
-* [Laxerem](https://github.com/Laxerem)
+* [oiwiio](https://github.com/oiwiio)
+
+Страница с итогами
