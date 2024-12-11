@@ -11,7 +11,7 @@ class Game_Page extends Page {
         <div class="main_section_container">
             <div class="main_container">
                 <div class="game_name">
-                    <h1>Игра</h1>
+                    <h1>Choise Of Russia</h1>
                 </div>
                 <div class="game_container">
                     <div class="game_text">
