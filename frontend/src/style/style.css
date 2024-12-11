@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-html, body {
-    height: 100%;
-}
-
 a {
     text-decoration: none;
 }
@@ -188,6 +184,10 @@ footer {
     align-items: center;
     height: 865px;
     width: 100%;
+    background-image: url(../../public/МС.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .error {
