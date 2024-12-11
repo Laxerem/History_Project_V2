@@ -5,6 +5,7 @@ import Themes_page from "../pages/themes";
 import Home_Page from "../pages/Home_page";
 import State_results from "../pages/state_results";
 import State_authorities from "../pages/State_authorities";
+import State_reforms from "../pages/State_reforms";
 
 const page_key = {
     "game": Game_Page,
@@ -12,7 +13,8 @@ const page_key = {
     "themes": Themes_page,
     "home": Home_Page,
     "results": State_results,
-    "state_bodies": State_authorities
+    "state_bodies": State_authorities,
+    "reforms": State_reforms
 }
 
 class MainPage {
