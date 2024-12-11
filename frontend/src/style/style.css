@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: auto;
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 25px;
+    z-index: 0;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(58deg, rgba(2,0,36,1) 0%, rgba(34,34,186,1) 59%, rgba(17,18,52,1) 100%);
+    box-shadow: 0px 30px 134px 30px rgb(29, 24, 141);
+}
+h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.site_name {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    gap:20px;
+}
+
+.site_name {
+    transition: 0.5s;
+}
+
+.site_name a {
+    transition: 0.2s;
+    color: rgb(255, 225, 0);
+}
+
+.site_name a:hover {
+    transform: scale(1.04) rotate(0.2deg);
+    color: rgb(255, 0, 200);
+}
+
+.site_name a:active {
+    color: red;
+    transform: scale(1.05) rotate(-0.2deg);
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    background-image: url(../../public/logo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.catalog {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    gap:30px;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.catalog .about-us a {
+    transition: 1s;
+    color: #f5deb3;
+}
+
+.catalog .about-us a:hover {
+    border-bottom: 1px solid white;
+}
+
+.game-div {
+    transition: 1s;
+}
+
+.game-div a {
+    color: rgb(0, 255, 0);
+}
+
+.catalog .game-div{
+    color: blueviolet;
+    padding: 5px;
+    border-radius:25%;
+}
+
+.catalog .game-div:hover {
+    box-sizing: border-box;
+    border: 2px solid Maroon ;
+    color: Brown;
+    background-color:black;
+    transform: rotate(360deg);
+    transition: 1.0s;
+    a {
+        transition: 1s;
+        color: rgb(255, 0, 0);
+    }
+}
+
+.catalog .game-div:active {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    box-shadow: 1px -8px 25px 0px rgba(255,255,255,0.5);
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    height: 80px;
+}
+
+.footer-zagolovok {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-text {
+    display: flex;
+    align-items: center;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+}
+
+.navigation_el a {
+    color: wheat;
+    font-family: "JetBrains Mono", monospace;
+    transition: 0.5s;
+}
+
+.navigation_el a:hover {
+    color: white;
+    transform: scale(2deg) rotate(30deg);
+    border-bottom: 1px solid white;
+    transition: 0.5s;
+}
+
+.error_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 865px;
+    width: 100%;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 500px;
+    background-color: black;
+}
+
+.error_text {
+    color: aliceblue;
+}
+
+.error_code {
+    color: red;
+}
