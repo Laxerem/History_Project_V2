@@ -5,6 +5,7 @@ class State_authorities extends Page {
 
     constructor() {
         super()
+        this.style = "state_results"
         this.html = document.createElement('div')
         this.html.innerHTML = `
         <div class="state_authorities_container">

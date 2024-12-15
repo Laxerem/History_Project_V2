@@ -1,10 +1,12 @@
 import Page from "../modules/page";
+import change_style from "../modules/change_style";
 
 class Themes_page extends Page {
     protected html
 
     constructor() {
         super()
+        this.style = "themes"
         this.html = document.createElement('div')
         this.html.innerHTML = `
         <div class="themes_container">
@@ -35,7 +37,7 @@ class Themes_page extends Page {
                     </div>
                     <div class="theme_image">
                         <div class="comment">
-                            <h2>Итоги правления Петра 1</h2>
+                            <h2>Итоги создания новых органов власти</h2>
                         </div>
                     </div>
                 </div>
@@ -44,6 +46,7 @@ class Themes_page extends Page {
         `
     }
     render(): void {
+        change_style(this.style)
         const main = document.querySelector('main')
         if (main) {
             main.innerHTML = this.html.innerHTML

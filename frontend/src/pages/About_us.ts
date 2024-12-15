@@ -1,10 +1,12 @@
 import Page from "../modules/page";
+import change_style from "../modules/change_style";
 
 class About_us_page extends Page{
     protected html;
 
     constructor() {
         super()
+        this.style = "about_us"
         this.html = document.querySelector<HTMLDivElement>('main')
         this.html.innerHTML = `
         <section class="about_us">

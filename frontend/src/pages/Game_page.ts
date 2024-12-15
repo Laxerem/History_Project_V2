@@ -1,11 +1,13 @@
 import Page from "../modules/page";
 import Dialog from "../app/game/game_process";
+import change_style from "../modules/change_style";
 class Game_Page extends Page {
     protected html
     private dialog: Dialog
 
     constructor() {
         super()
+        this.style = "game"
         this.html = document.querySelector<HTMLDivElement>('main')
         this.html.innerHTML = `
         <div class="main_section_container">
@@ -26,6 +28,7 @@ class Game_Page extends Page {
         `
     }
     render(): void {
+        change_style("game")
         if (this.dialog) {
 
         }

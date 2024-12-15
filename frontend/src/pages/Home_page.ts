@@ -1,12 +1,13 @@
 import Page from "../modules/page";
+import change_style from "../modules/change_style";
 
 class Home_Page extends Page {
     protected html: HTMLElement;
 
     constructor() {
         super()
+        this.style = "home"
         this.html = document.createElement('div')
-
         this.html.innerHTML = `
         <div class="home_container">
             <div class="main_home_container">
@@ -36,6 +37,7 @@ class Home_Page extends Page {
     }
 
     render() {
+        change_style("home")
         const main = document.querySelector("main")
         if (main) {
             main.innerHTML = this.html.innerHTML
