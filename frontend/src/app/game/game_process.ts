@@ -9,7 +9,6 @@ class Dialog {
         this.id = id;
         this.variants = dialogs[id].variants
         this.description = dialogs[id].description
-
     }
 
     change_dialog(id: string) {
@@ -33,6 +32,10 @@ class Dialog {
                 varios_container.appendChild(choice_button)
             }
         }
+    }
+    restart() {
+        this.id = "1";
+        this.start()
     }
 }
 
