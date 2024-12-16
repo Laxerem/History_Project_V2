@@ -2,6 +2,14 @@ main {
     height: auto;
 }
 
+li {
+    padding-top: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
 .state_authorities_image {
     background-image: url(../../public/новые_гос_органы.png);
     background-repeat: no-repeat;
@@ -29,7 +37,12 @@ main {
 }
 
 .state_main_content {
-    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px 20px 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .state_reasons ul li {
@@ -41,8 +54,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
-    width: 100%;
+    width: 90%;
+    min-width: 300px;
     ul {
         padding-top: 20px;
     }
@@ -81,4 +94,60 @@ main {
     li {
         padding-top: 20px;
     }
+}
+
+.reforms-zag {
+    padding: 40px 0px 0px 0px;
+}
+
+.reforms {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.ref {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: white;
+    h2 {
+        color:antiquewhite;
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 10px;
+        border-bottom: 2px solid white;
+    }
+    .text {
+        padding: 0px 20px 20px 20px;
+    }
+    background-color: black;
+}
+
+.img {
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    -webkit-box-shadow: 0px 0px 43px 10px rgba(34, 60, 80, 0.97) inset;
+    -moz-box-shadow: 0px 0px 43px 10px rgba(34, 60, 80, 0.97) inset;
+    box-shadow: 0px 0px 43px 10px rgba(34, 60, 80, 0.97) inset;
+}
+
+.img-1 {
+    background-image: url(../../public/Петр-батя.png);
+}
+
+.img-2 {
+    background-image: url(../../public/Коллегии.png);
+}
+
+.img-3 {
+    background-image: url(../../public/магистрат.png);
+    background-position: top;
+}
+
+.img-4 {
+    background-image: url(../../public/земской_собор.png);
 }
