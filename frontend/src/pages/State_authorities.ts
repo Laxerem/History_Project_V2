@@ -11,6 +11,7 @@ class State_authorities extends Page {
         <div class="state_authorities_container">
             <div class="state_authorities_image">
                 <div class="state_background_opacity">
+                    <a class="back" href="/#themes">Назад</a>
                     <div class="main_state_text">
                         <h2>Создание новых органов управления</h2>
                         <br>
