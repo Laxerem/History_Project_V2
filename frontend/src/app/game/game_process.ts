@@ -9,7 +9,6 @@ class TextTyping {
     constructor(element, delay: number = 70) {
         this.delay = delay
         this.element = element
-        console.log(this.element)
         this.interval = null
     }
 
