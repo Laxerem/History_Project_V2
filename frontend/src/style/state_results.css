@@ -76,7 +76,10 @@ main {
     font-family: 'Montserrat', sans-serif;
     h2 {
         font-size: 30px;
-    }   
+    }
+    li {
+        padding-top: 10px;
+    }
 }
 
 .authorities {
