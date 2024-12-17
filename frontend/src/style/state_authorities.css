@@ -55,30 +55,88 @@ main {
 }
 
 .state_authorities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding-top: 40px;
     font-family: 'Montserrat', sans-serif;
-    h2 {
-        font-size: 30px;
-    }   
 }
 
 .authorities {
+    margin-top: 20px;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
-    h3 {
-        padding-top: 20px;
-        font-size: 24px;
-    }
-}
-
-.authorities {
-    max-width: 850px;
-    p {
-        padding-left: 20px;
-    }
     ul {
        padding-left: 60px;
     }
     li {
         padding-top: 20px;
     }
+    background-color: black;
+    color: white;
+}
+
+.text-zagolovok {
+    h2 {
+        font-size: 40px;
+    }
+}
+
+.img {
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shadow_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.text {
+    padding: 0px 20px 20px 20px;
+    h2 {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+}
+
+.note {
+    font-size: 22px;
+}
+
+.text-zagolovok {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    color: white;
+}
+
+.definition {
+    width: 100%;
+    color: yellow;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    padding: 12px 0px 12px 0px;
+    text-align: center;
+}
+
+.img-1 {
+    background-image: url(../../public/центр-2.png);
+    background-attachment: fixed;
+}
+
+.img-2 {
+    background-image: url(../../public/Местные.png);
+    background-attachment: fixed;
+}
+
+.img-3 {
+    background-image: url(../../public/Судебные.png);
+    background-attachment: fixed;
 }
