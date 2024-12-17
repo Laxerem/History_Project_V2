@@ -14,7 +14,6 @@ class TextTyping {
 
     typing(text: string) {
         let i = 0;
-        console.log(this.element)
         const element_link = this.element
             this.interval = setInterval(function() {
                 if (i < text.length) {
