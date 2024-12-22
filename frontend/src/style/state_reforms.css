@@ -26,9 +26,9 @@ h1 {
 }
 
 .state_authorities_image {
-    background-image: url(../../public/новые_гос_органы.png);
+    background-image: url(../../public/Реформы.png);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size:cover;
     height: 350px;
 }
@@ -38,7 +38,7 @@ h1 {
     justify-content: center;
     align-items:flex-start;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     padding: 0px 40px 0px 40px;
 }
