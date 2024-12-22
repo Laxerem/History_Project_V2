@@ -95,6 +95,7 @@
     width: 150px;
     height: 80px;
     transition: 0.5s;
+    border-radius:15px ;
 }
 
 .button_next:hover {
