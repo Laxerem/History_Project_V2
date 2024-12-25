@@ -7,7 +7,8 @@ class State_authorities extends Page {
         super()
         this.style = "state_bodies"
         this.html = document.createElement('div')
-        this.html.innerHTML = `
+        this.html.innerHTML = 
+        `
         <div class="state_authorities_container">
             <div class="state_authorities_image">
                 <div class="state_background_opacity">
@@ -17,7 +18,8 @@ class State_authorities extends Page {
                         <br>
                         <p>1700-1725 годы</p>
                         <br>
-                        <p>Пётр I оставил после себя полностью преображённую систему 
+                        <p>
+                            Пётр I оставил после себя полностью преображённую систему 
                             государственного правления. Между тем она во многом отвечала 
                             нуждам военного времени, которые требовали больших материальных 
                             затрат и мобилизации населения.
@@ -26,31 +28,6 @@ class State_authorities extends Page {
                 </div>
         </div>
         <div class="state_main_content">
-            <div class="state_reasons">
-                <h1>Причины</h1>
-                <ul>
-                    <li>
-                        <b>Смещение боярской думы с власти</b> - Петр I 
-                        недовольно оценивал работу Боярской Думы, считая, 
-                        что бояре часто действуют в своих интересах, а не 
-                        во благо государства.
-                    </li>
-                    <li>
-                        <b>Централизация власти</b> - необходимость в укреплении
-                        центральной власти и снижение влияния бояр и местных
-                        феодалов. Новые органы власти позволили сосредоточить
-                        управление в руках монарха и его ближайшего окружения.
-                    </li>
-                    <li>
-                        <b>Поддержка реформ</b> - Новые органы власти должны были
-                        обеспечивать исполнение реформ, касающихся экономики, культуры,
-                        образования и других сфер жизни общества.
-                    </li>
-                </ul>
-                <div class="border_line">
-
-                </div>
-            </div>
             <div class="state_authorities">
                 <h1>Органы власти</h1>
                 <br>
