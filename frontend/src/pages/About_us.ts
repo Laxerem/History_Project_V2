@@ -22,7 +22,7 @@ class About_us_page extends Page{
                             <a class="username" href="https://github.com/Laxerem" target="_blank">Laxerem</a>
                         </div>
                         <div class="text-about">
-                            <p class="zagolovok"><strong>TeamLeader</strong></p>
+                            <p class="zagolovok"><strong>TeamLeader, дизайнер</strong></p>
                             <div class="case">
                                 <div class="work">
                                     <h3>Участие в создании страниц:</h3>
@@ -31,6 +31,7 @@ class About_us_page extends Page{
                                             <li>Главная Страница (помощь в разработке)</li>
                                             <li>Игра (полностью)</li>
                                             <li>О нас (полностью)</li>
+                                            <li>Страницы с темами (полностью)
                                         </ul>
                                     </div>
                                 </div>
@@ -60,7 +61,7 @@ class About_us_page extends Page{
                             <a class="username" href="https://github.com/oiwiio" target="_blank">oiwiio</a>
                         </div>
                         <div class="text-about">
-                            <p class="zagolovok"><strong>Верстальщик</strong> по макету, дизайнер</p>
+                            <p class="zagolovok"><strong>Верстальщик</strong> по макету</p>
                             <div class="case">
                                 <div class="work">
                                     <h3>Участие в создании страниц:</h3>

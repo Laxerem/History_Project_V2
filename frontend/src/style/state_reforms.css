@@ -10,46 +10,12 @@ h1 {
     text-align: center;
 }
 
-.back {
-    padding: 2px;
-    font-family: "JetBrains Mono", monospace;
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    background-color: white;
-    margin-bottom: 20px;
-    transition: 0.5s;
-}
-
-.back:hover {
-    background-color: yellow;
-}
-
 .state_authorities_image {
     background-image: url(../../public/Реформы.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    height: 350px;
-}
-
-.state_background_opacity {
-    display: flex;
-    justify-content: center;
-    align-items:flex-start;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100%;
-    padding: 0px 40px 0px 40px;
-}
-
-.main_state_text {
-    color: white;
-    font-family: "JetBrains Mono", monospace;
-    max-width: 500px;
-    h2 {
-        font-size: 30px;
-    }
+    height: 400px;
 }
 
 .state_main_content {
@@ -72,8 +38,17 @@ h1 {
     flex-direction: column;
     width: 90%;
     min-width: 300px;
-    ul {
-        padding-top: 20px;
+    ol {
+        li {
+            h2 {
+                font-size: 24px;
+                font-weight: 700;
+            }
+            font-size: 18px;
+        }
+    }
+    b {
+        font-weight: 600;
     }
 }
 
@@ -89,82 +64,166 @@ h1 {
     border-bottom: 2px solid black;
 }
 
-.state_authorities {
-    padding-top: 40px;
-    font-family: 'Montserrat', sans-serif;
-    h2 {
-        font-size: 30px;
-    }   
-}
-
-.authorities {
-    font-family: 'Montserrat', sans-serif;
-    h3 {
-        padding-top: 20px;
-        font-size: 24px;
-    }
-}
-
-.authorities {
-    max-width: 850px;
-    p {
-        padding-left: 20px;
-    }
-    ul {
-       padding-left: 60px;
-    }
-    li {
-        padding-top: 20px;
-    }
-}
-
 .reforms-zag {
     padding: 40px 0px 0px 0px;
+    font-size: 50px;
 }
 
 .reforms {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    width: 90%;
+    width: 80%;
     padding-top: 20px;
     min-width: 900px;
+    transition: 1s;
 }
 
 .ref {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     margin-top: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(222, 222, 222);
+    transition: 1s;
     h2 {
-        font-size: 28px;
+        font-size: 38px;
         color:antiquewhite;
         padding-top: 20px;
         text-align: center;
         padding-bottom: 10px;
         border-bottom: 2px solid rgba(255, 255, 255, 0.829);
+        font-family: "Bad Script", sans-serif;
     }
     .text {
-        padding: 0px 20px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 20px 40px 20px;
         h3 {
-            font-size: 25px;
+            font-size: 28px;
             text-align: center;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
+            color: rgb(161, 159, 9);
         }
         p {
-            font-size: 18px;
+            font-size: 22px;
+        }
+        b {
+            font-weight: 600;
         }
     }
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+}
+
+.zem:hover {
+    -webkit-box-shadow: 0px 0px 44px 20px rgba(12, 255, 0, 0.24);
+    -moz-box-shadow: 0px 0px 44px 20px rgba(12, 255, 0, 0.24);
+    box-shadow: 0px 0px 44px 20px rgba(12, 255, 0, 0.24);
+}
+
+.gub:hover {
+    -webkit-box-shadow: 0px 0px 44px 20px rgba(255, 0, 247, 0.24);
+    -moz-box-shadow: 0px 0px 44px 20px rgba(255, 0, 247, 0.24);
+    box-shadow: 0px 0px 44px 20px rgba(255, 0, 247, 0.24);
+}
+
+.sen:hover {
+    -webkit-box-shadow: 0px 0px 44px 20px rgba(0, 17, 255, 0.3);
+    -moz-box-shadow: 0px 0px 44px 20px rgba(0, 17, 255, 0.3);
+    box-shadow: 0px 0px 44px 20px rgba(0, 17, 255, 0.3);
+}
+
+.kol:hover {
+    -webkit-box-shadow: 0px 0px 44px 20px rgba(248, 255, 0, 0.24);
+    -moz-box-shadow: 0px 0px 44px 20px rgba(248, 255, 0, 0.24);
+    box-shadow: 0px 0px 44px 20px rgba(248, 255, 0, 0.24);
+}
+
+.mag:hover {
+    -webkit-box-shadow: 0px 0px 44px 20px rgba(255, 0, 0, 3);
+    -moz-box-shadow: 0px 0px 44px 20px rgba(255, 0, 0, 3);
+    box-shadow: 0px 0px 44px 20px rgba(255, 0, 0, 0.3);
+}
+
+.sin:hover {
+    -webkit-box-shadow: 0px 0px 44px 20px rgba(255, 139, 0, 0.24);
+    -moz-box-shadow: 0px 0px 44px 20px rgba(255, 139, 0, 0.24);
+    box-shadow: 0px 0px 44px 20px rgba(255, 139, 0, 0.24);
+}
+
+.sud:hover {
+    -webkit-box-shadow: 0px 0px 44px 20px rgba(153, 104, 45, 0.4);
+    -moz-box-shadow: 0px 0px 44px 20px rgba(153, 104, 45, 0.4);
+    box-shadow: 0px 0px 44px 20px rgba(153, 104, 45, 0.4);
+}
+
+.tab:hover {
+    -webkit-box-shadow: 0px 0px 44px 20px rgba(77, 224, 35, 0.24);
+    -moz-box-shadow: 0px 0px 44px 20px rgba(77, 224, 35, 0.24);
+    box-shadow: 0px 0px 44px 20px rgba(77, 224, 35, 0.24);
 }
 
 .img {
+    animation: none;
     background-size: cover;
     background-position: center;
+    position: relative;
     height: 350px;
     -webkit-box-shadow: 0px 0px 43px 10px rgba(34, 60, 80, 0.97) inset;
     -moz-box-shadow: 0px 0px 43px 10px rgba(34, 60, 80, 0.97) inset;
     box-shadow: 0px 0px 43px 10px rgba(34, 60, 80, 0.97) inset;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    flex-direction: column;
+    transition: 3s;
+
+    .reform-date {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        height: 50px;
+        min-width: 200px;
+        max-width: 400px;
+        background-color: rgb(246, 255, 0);
+        border-radius: 10px 0px 0px 0px;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 24px;
+    }
+}
+
+.navigation-image {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    flex-direction: column;
+    width: auto;
+    height: 200px;
+    gap:10px;
+    margin-left: 5px;
+
+    .nav {
+        background-image: url(../../public/Стрелка.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70px;
+        width: 70px;
+        cursor: pointer;
+    }
+
+    .bottom {
+        transform: rotate(180deg);
+    }
+}
+
+.ref-text {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
 }
 
 .img-1 {
@@ -174,6 +233,7 @@ h1 {
 
 .img-2 {
     background-image: url(../../public/коллегии.png);
+    background-position: top;
 }
 
 .img-3 {
@@ -193,6 +253,20 @@ h1 {
     background-image: url(../../public/Суд.png);
 }
 
+.img-7 {
+    background-image: url(../../public/сословия.png);
+}
+
+.img-8 {
+    background-image: url(../../public/синод.png);
+}
+
+.img-9 {
+    background-image: url(../../public/карты/губернии.png);
+    min-width: 350px;
+    max-width: 450px;
+}
+
 @media(max-width:1000px) {
     .reforms {
         min-width: 300px;
@@ -200,18 +274,9 @@ h1 {
     }
 }
 
-@media(max-width:450px) {
-    .state_background_opacity {
-        a {
-            font-size: 20px;
-        }
-        .main_state_text {
-            h2 {
-                font-size: 25px;
-            }
-            p {
-                font-size: 15px;
-            }
-        }
+@media(max-width: 920px) {
+    .ref-text {
+        flex-direction: column;
+        align-items: center;
     }
 }

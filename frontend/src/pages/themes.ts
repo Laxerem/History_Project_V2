@@ -37,7 +37,7 @@ class Themes_page extends Page {
                     </div>
                     <div class="theme_image">
                         <div class="comment">
-                            <h2>Итоги создания новых органов власти</h2>
+                            <h2>Итоги создания новых органов управления</h2>
                         </div>
                     </div>
                 </div>

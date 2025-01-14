@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -64,6 +63,14 @@ h1 {
 .site_name a:active {
     color: red;
     transform: scale(1.05) rotate(-0.2deg);
+}
+
+.border_line {
+    min-width: 350px;
+    width: 60%;
+    height: 5px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    align-self: flex-start;
 }
 
 .logo {
@@ -209,4 +216,98 @@ footer {
 
 .error_code {
     color: red;
+}
+
+span.red {
+    color: red;
+}
+
+span.green {
+    color: rgb(7, 205, 7);
+}
+
+span.green-2 {
+    color: rgb(139, 255, 139);
+}
+
+span.blue {
+    color: blue;
+}
+
+span.blue-2 {
+    color: #ea63ff;
+}
+
+span.yellow {
+    color: yellow;
+}
+
+span.orange {
+    color: orange;
+}
+
+span.brown {
+    color: rgb(200, 149, 149);
+}
+
+span.bad {
+    font-family: "Bad Script", sans-serif;
+}
+
+span.opacity {
+    opacity: 0.9;
+}
+
+.back {
+    padding: 2px;
+    font-family: "JetBrains Mono", monospace;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.back:hover {
+    background-color: yellow;
+}
+
+.state_background_opacity {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    padding: 0px 0px 0px 40px;
+}
+
+.main_state_text {
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    max-width: 550px;
+    h2 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 17px;
+    }
+}
+
+@media(max-width:550px) {
+    .state_background_opacity {
+        padding: 0px 0px 0px 20px;
+        a {
+            font-size: 20px;
+        }
+        .main_state_text {
+            h2 {
+                font-size: 25px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
 }

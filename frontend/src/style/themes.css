@@ -21,8 +21,8 @@
 .theme {
     box-sizing: border-box;
     transition: 0.2s;
-    height: 400px;
-    width: 240px;
+    height: 500px;
+    width: 300px;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -45,6 +45,10 @@
 }
 
 .comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
     opacity: 0;
     transition: opacity 0.9s ease;
     height: 30%;

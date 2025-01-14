@@ -1,7 +1,7 @@
 import dialogs from "./dialog"
 import get_button from "../../modules/modules"
 
-class TextTyping {
+export class TextTyping {
     private delay: number;
     private element: HTMLElement
     private interval
