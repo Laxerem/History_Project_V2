@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'JetBrains' monospace;
+    src: url(../../public/assets/fonts/JetBrains_Mono/JetBrainsMono.ttf);
+}
+
+@font-face {
+    font-family: "Bad Script", sans-serif;
+    src: url(../../public/assets/fonts/Bad_Script/BadScript-Regular.ttf) format('.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(../../public/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(../../public/assets/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
 main {
     height: auto;
 }
@@ -14,6 +34,18 @@ main {
     background-position: top;
     background-size:cover;
     height: 400px;
+}
+
+.main_state_text {
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    max-width: 550px;
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 17px;
+    }
 }
 
 .state_main_content {
@@ -47,6 +79,7 @@ main {
         font-family: "JetBrains Mono", monospace;
         border-bottom: 2px solid black;
         margin: 40px 0px 30px 0px;
+        text-align: center;
     }
 }
 

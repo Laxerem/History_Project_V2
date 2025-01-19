@@ -38,13 +38,17 @@ h1 {
     flex-direction: column;
     width: 90%;
     min-width: 300px;
+    h1 {
+        font-size: 40px;
+    }
     ol {
         li {
             h2 {
-                font-size: 24px;
-                font-weight: 700;
+                font-size: 28px;
+                font-weight: 800;
             }
-            font-size: 18px;
+            padding-top: 20px;
+            font-size: 22px;
         }
     }
     b {
@@ -83,7 +87,7 @@ h1 {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 30px;
     color: rgb(222, 222, 222);
     transition: 1s;
     h2 {
@@ -102,6 +106,7 @@ h1 {
         justify-content: center;
         padding: 0px 20px 40px 20px;
         h3 {
+            margin-top: 20px;
             font-size: 28px;
             text-align: center;
             margin-bottom: 20px;
@@ -268,6 +273,10 @@ h1 {
 }
 
 @media(max-width:1000px) {
+    .state_main_content {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .reforms {
         min-width: 300px;
         width: 100%;

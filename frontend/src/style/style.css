@@ -1,4 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat+Subrayada:wght@400;700&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'JetBrains' monospace;
+    src: url(../../public/assets/fonts/JetBrains_Mono/JetBrainsMono.ttf);
+}
+
+@font-face {
+    font-family: "Bad Script", sans-serif;
+    src: url(../../public/assets/fonts/Bad_Script/BadScript-Regular.ttf) format('.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(../../public/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(../../public/assets/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -281,6 +302,7 @@ span.opacity {
     background-color: rgba(0, 0, 0, 0.6);
     height: 100%;
     padding: 0px 0px 0px 40px;
+    transition: 0.5s;
 }
 
 .main_state_text {
@@ -295,18 +317,41 @@ span.opacity {
     }
 }
 
-@media(max-width:550px) {
+
+@media(max-width: 700px) {
+    .state_main_content{
+        .results {
+            h2 {
+                font-size: 40px;
+            }
+            .result {
+                margin-left: 0px;
+                h2 {
+                    font-size: 30px;
+                }
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:600px) {
     .state_background_opacity {
-        padding: 0px 0px 0px 20px;
+        align-items: center;
+        padding: 0;
         a {
-            font-size: 20px;
+            text-align: center;
         }
         .main_state_text {
             h2 {
-                font-size: 25px;
+                font-size: 35px;
+                text-align: center;
             }
             p {
-                font-size: 15px;
+                font-size: 17px;
+                text-align: center;
             }
         }
     }
