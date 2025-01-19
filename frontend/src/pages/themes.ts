@@ -53,7 +53,7 @@ class Themes_page extends Page {
             const themes = document.querySelectorAll(".theme")
             themes.forEach((element) => {
                 element.addEventListener('click', () => {
-                    window.location.href = `/themes/#${element.classList[1]}`
+                    window.location.href = `/#${element.classList[1]}`
                 })
             })
         }

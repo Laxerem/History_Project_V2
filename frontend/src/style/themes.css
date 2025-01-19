@@ -108,3 +108,13 @@
 .state_bodies:hover {
     border: 2px solid rgb(255, 0, 255);
 }
+
+@media(max-width: 1100px) and (min-width: 700px) {
+    .theme {
+        box-sizing: border-box;
+        transition: 0.2s;
+        height: 400px;
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+}
