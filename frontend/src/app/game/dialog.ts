@@ -41,7 +41,7 @@ const dialogs: Dialogs = {
         description: "Вы спрятались глубоко в лесу",
         variants: [
             { label: "Подождать и пойти купить себе дом", nextDialog: "5" },
-            { label: "Скрываться дальше", nextDialog: "2" },
+            { label: "Скрываться дальше", nextDialog: "5" },
             
         ]
     },

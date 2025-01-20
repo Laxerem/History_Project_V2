@@ -356,3 +356,23 @@ span.opacity {
         }
     }
 }
+
+@media(max-width:500px) {
+    .state_background_opacity {
+        align-items: center;
+        padding: 0;
+        a {
+            text-align: center;
+        }
+        .main_state_text {
+            h2 {
+                font-size: 35px;
+                text-align: center;
+            }
+            p {
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+    }
+}

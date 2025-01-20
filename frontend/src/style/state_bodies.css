@@ -413,6 +413,29 @@ svg {
 }
 
 @media(max-width:450px) {
+    .state_authorities {
+        h1 {
+            font-size: 35px;
+        }
+        .authorities {
+            h2 {
+                font-size: 30px;
+            }
+            .text {
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .text-zagolovok {
+        h2 {
+            font-size: 40px;
+        }
+    }
+    .text {
+        padding: 0;
+    }
     .state_background_opacity {
         a {
             font-size: 20px;
